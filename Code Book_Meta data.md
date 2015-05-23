@@ -1,6 +1,7 @@
 # Getting-and-Cleaning-Data_Peer-Assignment
 Peer Assessments /Getting and Cleaning Data Course Project
 
+
 # Part 2.- Meta Data: Code book
  The independent tidy data set contains 
 -     180 observations: 30 subjects * 6 activities each)
