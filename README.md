@@ -22,4 +22,4 @@ This section corresponds to the last part of the requirements of the peer assess
  
 E.- Create the data set as a ".txt" file
 We use the "write.table()" function to write the tidy data set to a text file called "Independent tidy data.txt" that will be located into the working directory.
- 
+# End 
