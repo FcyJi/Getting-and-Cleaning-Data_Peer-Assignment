@@ -54,6 +54,8 @@
                                                    # Create a variable which captures :
     d2<-as.vector(d1[2]) ; d4<- as.vector(d2)      # - the activity variable name
     a2<- as.character(d4$V2)                       # - the subject variable name
+    a20<- rep("Average_", 561)
+    a2<- paste0(a20,a2)
     a1<- "activity"; a11<- "subject";              # - the names of the measuremnts
     a3<- "test_ot_train" # a2<- d4;                # - the variable name identifying
     aa<-rbind(a1,a11); aa<- as.character(aa[,1])   #   the data set of origin.
@@ -98,4 +100,4 @@
   show(paste(" of the independent tidy data set.                               "))
   show("")
   show("")
-##
+#
